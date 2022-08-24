@@ -116,7 +116,15 @@ a {
 .textoYbotones{
   display: flex;
 }
-
+/* NO LO SONSIGO MACHO */
+.imagenInicio{
+ margin-right: 10px;
+  display: flex;
+  min-width: 100px;
+  max-width: 200px;
+  min-height: 10px;
+  min-width: 10px;
+}
 
 /* FORMACION contenedor formacion y sus formaciones */
 .contenedorFormacion{
