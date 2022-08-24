@@ -103,3 +103,28 @@ a {
     border-radius: 4px;
   }
 }
+/* contenedor inicio (foto) y contenedor textp+botones */
+.contenedorInicio{
+  display: flex;
+  background-color: red;
+}
+
+.fotos{
+  display: flex;
+}
+
+.textoYbotones{
+  display: flex;
+}
+
+
+/* FORMACION contenedor formacion y sus formaciones */
+.contenedorFormacion{
+  display: flex;
+  flex-direction: column;
+}
+
+.divFormacion{
+  display: flex;
+  justify-content: center;
+}
