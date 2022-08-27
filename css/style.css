@@ -109,25 +109,43 @@ a {
     border-radius: 4px;
   }
 }
+/* INICIO */
 /* contenedor inicio (foto) y contenedor textp+botones */
-.contenedorInicio{
+/* .contenedorInicio{
   display: flex;
   background-color: red;
-  
- 
+  padding-top: 80px;
+  height: 100vh;
+} */
 
+
+.contenedorInicio {
+  display: flex;
+  background-color: red;
+  padding-top: 108px;
+  height: 150%;
+  flex-direction: column;
 }
 
 .fotos {
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  padding-bottom: 23px
 }
 
 .textoYbotones{
   display: flex;
+    align-content: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
-/* NO LO SONSIGO MACHO */
+
 .imagenInicio{
  margin-right: 10px;
   display: flex;
