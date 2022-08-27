@@ -123,8 +123,8 @@ a {
   display: flex;
   background-color: red;
   padding-top: 108px;
-  height: 150%;
-  flex-direction: column;
+/*   height: 150%;
+ */  flex-direction: column;
 }
 
 .fotos {
@@ -135,14 +135,14 @@ a {
 
 .textoYbotones{
   display: flex;
-    align-content: center;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
-    text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
+  align-content: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
 
 }
 
@@ -159,6 +159,8 @@ a {
 .contenedorFormacion{
   display: flex;
   flex-direction: column;
+  background-color: red;
+  padding-top: 108px;
 }
 
 .divFormacion{
