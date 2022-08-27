@@ -111,12 +111,7 @@ a {
 }
 /* INICIO */
 /* contenedor inicio (foto) y contenedor textp+botones */
-/* .contenedorInicio{
-  display: flex;
-  background-color: red;
-  padding-top: 80px;
-  height: 100vh;
-} */
+
 
 
 .contenedorInicio {
@@ -197,10 +192,22 @@ a {
 
 /* BOOTCAMP */
 
+
+.contenedorGrandeBootcamp{
+  padding-top: 108px;
+}
+
 .imgbootcamp {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+}
+
+.textoBootcamp{
+  text-align: justify;
+  padding : 15px;
+  
 }
 
 /* HORIZONTAL SCROLL */
@@ -208,6 +215,9 @@ a {
     background-color: #333;
     overflow: auto;
     white-space: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+
   }
   
   div.scrollmenu a {
@@ -221,4 +231,5 @@ a {
   div.scrollmenu a:hover {
     background-color: #777;
   }
+
 
