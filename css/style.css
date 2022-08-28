@@ -9,6 +9,8 @@
  
 }
 
+
+
 body {
   font-family: "Poppins", serif;
   color: rgb(214, 214, 214);
@@ -113,6 +115,7 @@ a {
   }
 
 
+
 }
 /* INICIO */
 /* contenedor inicio (foto) y contenedor textp+botones */
@@ -199,11 +202,13 @@ a {
 }
 
 
+
 /* BOOTCAMP */
 
 
 .contenedorGrandeBootcamp{
   padding-top: 108px;
+  justify-content: center;
 }
 
 .imgbootcamp {
