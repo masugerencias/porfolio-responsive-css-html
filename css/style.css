@@ -24,6 +24,9 @@ body {
   
 }
 
+
+
+
 a {
   color: white;
   text-decoration: none;
@@ -108,10 +111,11 @@ a {
     padding: 8px 15px;
     border-radius: 4px;
   }
+
+
 }
 /* INICIO */
 /* contenedor inicio (foto) y contenedor textp+botones */
-
 
 
 .contenedorInicio {
@@ -141,11 +145,11 @@ a {
 
 }
 
-.imagenInicio{
- margin-right: 10px;
-  display: flex;
-  min-width: 100px;
-  max-width: 200px;
+.imagenInicio {
+  /* margin-right: 10px; */
+  /* display: flex; */
+  /* min-width: 100px; */
+  /* max-width: 200px; */
   min-height: 10px;
   min-width: 10px;
 }
@@ -156,6 +160,8 @@ a {
   flex-direction: column;
   background-color: red;
   padding-top: 108px;
+ 
+  
 }
 
 .divFormacion{
@@ -165,6 +171,9 @@ a {
   align-items: center;
   gap: 10px;
   padding: 10px;
+  border-radius: 15px;
+  border: solid black 3px;
+  margin: 5px;
 }
 
 .fotoFormacion{
@@ -207,16 +216,18 @@ a {
 .textoBootcamp{
   text-align: justify;
   padding : 15px;
+  color: black;
   
 }
 
 /* HORIZONTAL SCROLL */
   div.scrollmenu {
-    background-color: #333;
+    background-color: rgb(212, 59, 59);
     overflow: auto;
     white-space: nowrap;
     margin-left: 20px;
     margin-right: 20px;
+    margin: 10px;
 
   }
   
