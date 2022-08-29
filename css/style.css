@@ -242,8 +242,16 @@ a {
 .textoBootcamp a {
   color: black;
   font-style: italic;
+  text-decoration:underline;
 }
 
+.diplomasBootcamp{
+  display: flex;
+  justify-content: center;
+}
+.imgDiplomaBootcamp {
+  max-width: 100%;
+}
 /* HORIZONTAL SCROLL */
   div.scrollmenu {
     background-color: rgb(212, 59, 59);
